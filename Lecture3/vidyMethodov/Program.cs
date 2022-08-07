@@ -18,6 +18,9 @@ void Method2(string  msg)
 {
     Console.WriteLine(msg);
 }
+// вызов;
+Method2("текст сообщения");
+
 
 void Method21 (string msg, int count)
 {
@@ -57,4 +60,4 @@ string Method4(int count, string text)
 }
 
 string res = Method4(10, "x");
-Console.WriteLine(res);
+Console.WriteLine(res); 
