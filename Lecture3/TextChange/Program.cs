@@ -24,7 +24,9 @@ string TextChange(string text, char oldValue, char newValue)
 
 string newText = TextChange(text, ' ' , '_');
 Console.WriteLine(newText);
-string newText2 = TextChange(newText, 'к' , 'К');
-Console.WriteLine(newText2);
-string newText3 = TextChange(newText2, 'С' , 'с');
-Console.WriteLine(newText3);
+Console.WriteLine();
+newText = TextChange(newText, 'к' , 'К');
+Console.WriteLine(newText);
+Console.WriteLine();
+newText = TextChange(newText, 'С' , 'с');
+Console.WriteLine(newText);
